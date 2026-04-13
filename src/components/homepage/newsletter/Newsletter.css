@@ -1,0 +1,32 @@
+.newsletter-section { background: linear-gradient(135deg, var(--cream) 0%, var(--ice) 100%); padding: 70px 24px; }
+.newsletter-inner { max-width: 600px; margin: 0 auto; text-align: center; }
+.newsletter-inner h2 { font-size: 2.2rem; margin-bottom: 12px; }
+.newsletter-inner p { color: var(--g600); margin-bottom: 30px; line-height: 1.7; }
+.newsletter-form { display: flex; gap: 10px; }
+.newsletter-form input { flex: 1; height: 52px; padding: 0 18px; border: 1.5px solid var(--g200); border-radius: 12px; font-size: .95rem; font-family: 'Open Sans', sans-serif; outline: none; }
+.newsletter-form input:focus { border-color: var(--teal); }
+.newsletter-form button { height: 52px; padding: 0 28px; background: var(--teal); color: white; border: none; border-radius: 12px; font-weight: 700; font-size: .95rem; cursor: pointer; white-space: nowrap; font-family: 'Open Sans', sans-serif; }
+.newsletter-form button:hover { background: var(--td); }
+@media (max-width: 768px){
+  .newsletter-form{flex-direction: column;}
+  .newsletter-form input, .newsletter-form button{width: 100%;}
+}
+.newsletter-section{background:linear-gradient(135deg,var(--cream) 0%,var(--ice) 100%);padding:70px 24px}
+.newsletter-inner{max-width:600px;margin:0 auto;text-align:center}
+.newsletter-inner h2{font-size:2.2rem;margin-bottom:12px}
+.newsletter-inner p{color:var(--g600);margin-bottom:30px;line-height:1.7}
+.newsletter-form{display:flex;gap:10px}
+.newsletter-form input{flex:1;height:52px;padding:0 18px;border:1.5px solid var(--g200);border-radius:12px;font-size:.95rem;font-family:'Open Sans',sans-serif;outline:none}
+.newsletter-form input:focus{border-color:var(--teal)}
+.newsletter-form button{height:52px;padding:0 28px;background:var(--teal);color:white;border:none;border-radius:12px;font-weight:700;font-size:.95rem;cursor:pointer;white-space:nowrap;font-family:'Open Sans',sans-serif}
+.newsletter-form button:hover{background:var(--td)}
+@media(max-width:900px){
+  .newsletter-form{flex-direction:column}
+}
+@media(max-width:640px){
+  .newsletter-section{padding:44px 16px}
+  .newsletter-inner h2{font-size:1.65rem}
+  .newsletter-form{flex-direction:column;gap:9px}
+  .newsletter-form input,.newsletter-form button{height:48px;width:100%}
+}
+

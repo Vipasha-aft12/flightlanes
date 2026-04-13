@@ -1,0 +1,12 @@
+/* DestinationsPage — page-specific styles */
+.destinations-page {
+  padding-top: 68px;
+}
+
+
+/* Extracted inline styles */
+.is-des-e79cc0 {
+  background: var(--teal);
+  color: white;
+  font-size: .6rem;
+}

@@ -1,0 +1,39 @@
+.guides-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 20px; }
+.guide-card { background: white; border: 1.5px solid var(--g100); border-radius: var(--r); overflow: hidden; transition: all var(--tr); cursor: pointer; }
+.guide-card:hover { border-color: var(--teal); box-shadow: 0 4px 20px rgba(0,0,0,.1); transform: translateY(-4px); }
+.guide-img { height: 200px; overflow: hidden; }
+.guide-img img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s; }
+.guide-card:hover .guide-img img { transform: scale(1.06); }
+.guide-body { padding: 16px; }
+.guide-cat { font-size: .72rem; font-weight: 700; color: var(--teal); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px; }
+.guide-body h3 { font-size: .95rem; line-height: 1.4; margin-bottom: 6px; }
+.guide-meta { font-size: .78rem; color: var(--g400); }
+@media (max-width: 1024px){
+  .guides-grid{grid-template-columns: repeat(2,1fr);}
+}
+@media (max-width: 768px){
+  .guides-grid{grid-template-columns: 1fr 1fr;}
+}
+@media (max-width: 480px){
+  .guides-grid{grid-template-columns: 1fr;}
+}
+.guides-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.guide-card{background:white;border:1.5px solid var(--g100);border-radius:var(--r);overflow:hidden;transition:all var(--tr);cursor:pointer}
+.guide-card:hover{border-color:var(--teal);box-shadow:0 4px 20px rgba(0,0,0,.1);transform:translateY(-4px)}
+.guide-img{height:200px;overflow:hidden}
+.guide-img img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.guide-card:hover .guide-img img{transform:scale(1.06)}
+.guide-body{padding:16px}
+.guide-cat{font-size:.72rem;font-weight:700;color:var(--teal);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px}
+.guide-body h3{font-size:.95rem;line-height:1.4;margin-bottom:6px}
+.guide-meta{font-size:.78rem;color:var(--g400)}
+@media(max-width:1024px){
+  .guides-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:900px){
+  .guides-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:640px){
+  .guides-grid{grid-template-columns:1fr;gap:11px}
+}
+

@@ -1,0 +1,120 @@
+/* ActivityResultsPage — page-specific styles */
+.activityresults-page {
+  padding-top: 68px;
+}
+
+
+/* Extracted inline styles */
+.is-act-2cfdd3 {
+  border: 1px solid var(--g200);
+  border-top: 1px solid var(--g200);
+  border-radius: 0;
+}
+.is-act-18ac00 {
+  background: linear-gradient(135deg,var(--teal),var(--tl));
+  color: white;
+  font-size: .66rem;
+  font-weight: 800;
+  padding: 4px 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  grid-column: 1/-1;
+}
+.is-act-a6d906 {
+  background: #d1fae5;
+  color: #065f46;
+  border-color: #a7f3d0;
+}
+.is-act-8f6c39 {
+  font-size: .78rem;
+  color: var(--g600);
+}
+.is-act-6f0bca {
+  font-size: .65rem;
+  color: var(--g400);
+  font-weight: 600;
+}
+.is-act-5bc72c {
+  font-size: .68rem;
+  color: var(--g400);
+}
+.is-act-4b8345 {
+  font-size: .67rem;
+}
+.is-act-81b95c {
+  background: white;
+  border-radius: 0 0 16px 16px;
+  border: 1px solid var(--g200);
+  border-top: none;
+  padding: 20px;
+  text-align: center;
+}
+.is-act-c27b6e {
+  font-size: .95rem;
+  padding: 11px 32px;
+}
+.is-act-cbfebc {
+  font-size: .68rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 100px;
+  background: #f3f4f6;
+  color: #6b7280;
+  border: 1px solid var(--g200);
+  white-space: nowrap;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.is-act-9816e9 {
+  font-size: .8rem;
+  font-weight: 700;
+  color: var(--g800);
+}
+.is-act-199864 {
+  font-size: .72rem;
+  color: var(--g600);
+}
+.is-act-22926e {
+  font-size: .78rem;
+  color: var(--g600);
+  font-weight: 600;
+}
+.is-act-de2386 {
+  font-size: .7rem;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 100px;
+  background: #f3f4f6;
+  color: #6b7280;
+  border: 1px solid var(--g200);
+  white-space: nowrap;
+}
+.is-act-ddd549 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto;
+}
+.is-act-f834fe {
+  background: var(--teal);
+  color: white;
+  font-weight: 800;
+  font-size: .88rem;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.is-act-87ba21 {
+  font-size: .7rem;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 100px;
+  background: #f3f4f6;
+  color: #6b7280;
+  border: 1px solid var(--g200);
+}
+.is-act-f6fa96 {
+  display: inline-flex;
+  gap: 6px;
+  vertical-align: middle;
+}

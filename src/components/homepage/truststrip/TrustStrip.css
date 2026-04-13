@@ -1,0 +1,42 @@
+.trust-strip { background: white; padding: 20px 24px; border-bottom: 1px solid var(--g100); }
+.trust-inner {
+  max-width: 1280px; margin: 0 auto; display: flex; align-items: center;
+  justify-content: center; gap: 40px; flex-wrap: wrap;
+}
+.trust-item { display: flex; align-items: center; gap: 10px; font-size: .85rem; font-weight: 600; color: var(--g600); }
+.trust-icon {
+  width: 36px; height: 36px; background: var(--ice); border-radius: 8px;
+  display: flex; align-items: center; justify-content: center; color: var(--teal);
+}
+.trust-icon svg { width: 18px; height: 18px; }
+@media (max-width: 900px){
+  .trust-inner{gap: 20px;}
+}
+@media (max-width: 480px){
+  .trust-inner{gap: 14px;}
+}
+.trust-strip{background:white;padding:20px 24px;border-bottom:1px solid var(--g100)}
+.trust-inner{max-width:1280px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:40px;flex-wrap:wrap}
+.trust-item{display:flex;align-items:center;gap:10px;font-size:.85rem;font-weight:600;color:var(--g600)}
+.trust-icon{width:36px;height:36px;background:var(--ice);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--teal)}
+.trust-icon svg{width:18px;height:18px}
+.page.page-active > *,
+.page.page-active section,
+.page.page-active .section,
+.page.page-active .trust-strip,
+.page.page-active .deals-ticker,
+.page.page-active .stats-section,
+.page.page-active .gallery-grid,
+.page.page-active .guides-grid,
+.page.page-active .packages-grid,
+.page.page-active .deals-grid,
+.page.page-active .why-grid,
+.page.page-active .reviews-grid,
+.page.page-active .destinations-grid,
+.page.page-active footer,
+.page.page-active .loyalty-section,
+.page.page-active .newsletter-section{opacity:1 !important;transform:none !important;visibility:visible !important}
+@media(max-width:900px){
+  .trust-inner{gap:12px;overflow-x:auto;flex-wrap:nowrap;justify-content:flex-start}
+}
+

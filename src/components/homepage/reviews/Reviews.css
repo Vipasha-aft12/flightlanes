@@ -1,0 +1,34 @@
+.reviews-bg { background: var(--teal); }
+.reviews-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
+.review-card {
+  background: rgba(255,255,255,.1); backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,.15); border-radius: var(--r);
+  padding: 26px; color: white; transition: all var(--tr);
+}
+.review-card:hover { background: rgba(255,255,255,.15); transform: translateY(-4px); }
+.review-stars { color: var(--gold); font-size: 1rem; letter-spacing: 2px; margin-bottom: 14px; }
+.review-text { font-size: .92rem; line-height: 1.7; color: rgba(255,255,255,.88); margin-bottom: 20px; }
+.reviewer { display: flex; align-items: center; gap: 12px; }
+.rev-avatar { width: 42px; height: 42px; border-radius: 50%; background: rgba(255,255,255,.2); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1rem; }
+.rev-name { font-weight: 700; font-size: .92rem; }
+.rev-loc { font-size: .78rem; color: rgba(255,255,255,.6); }
+@media (max-width: 900px){
+  .reviews-grid{grid-template-columns: 1fr;}
+}
+.reviews-bg{background:var(--teal)}
+.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.review-card{background:rgba(255,255,255,.1);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.15);border-radius:var(--r);padding:26px;color:white;transition:all var(--tr)}
+.review-card:hover{background:rgba(255,255,255,.15);transform:translateY(-4px)}
+.review-stars{color:var(--gold);font-size:1rem;letter-spacing:2px;margin-bottom:14px}
+.review-text{font-size:.92rem;line-height:1.7;color:rgba(255,255,255,.88);margin-bottom:20px}
+.reviewer{display:flex;align-items:center;gap:12px}
+.rev-avatar{width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1rem}
+.rev-name{font-weight:700;font-size:.92rem}
+.rev-loc{font-size:.78rem;color:rgba(255,255,255,.6)}
+@media(max-width:900px){
+  .reviews-grid{grid-template-columns:1fr}
+}
+@media(max-width:640px){
+  .reviews-grid{grid-template-columns:1fr;gap:13px}
+}
+

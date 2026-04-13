@@ -1,0 +1,9 @@
+.deals-ticker { background: var(--teal); color: white; padding: 12px 0; overflow: hidden; }
+.ticker-inner { display: flex; gap: 60px; animation: scroll 30s linear infinite; white-space: nowrap; }
+.ticker-item { display: inline-flex; align-items: center; gap: 8px; font-size: .85rem; font-weight: 600; }
+.ticker-item span { color: var(--gold); font-weight: 700; }
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}

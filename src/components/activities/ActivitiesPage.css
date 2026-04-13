@@ -1,0 +1,41 @@
+/* ActivitiesPage — page-specific styles */
+.activities-page {
+  padding-top: 68px;
+}
+
+
+/* Extracted inline styles */
+.is-act-f8531d {
+  background: white;
+}
+.is-act-0442d8 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.is-act-5f7f58 {
+  background: var(--g50);
+}
+.is-act-9a7d6d {
+  font-size: 1.5rem;
+}
+.is-act-5cc71b {
+  background: var(--cream);
+}
+.is-act-2d6452 {
+  background: rgba(255,255,255,.15);
+  color: white;
+}
+.is-act-3e74a5 {
+  color: white;
+}
+.is-act-e2e1e0 {
+  text-align: center;
+}
+.is-act-171a67 {
+  margin-top: 12px;
+}
+.is-act-21e1a0 {
+  font-size: .8rem;
+  color: var(--g400);
+  margin-top: 12px;
+}

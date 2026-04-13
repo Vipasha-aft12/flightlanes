@@ -1,0 +1,11 @@
+/* BlogPage styles */
+.blog-page { padding-top: 68px; }
+
+/* Extracted inline styles */
+.is-blo-5eac1d {
+  background: var(--teal);
+  color: white;
+}
+.is-blo-c425bf {
+  font-size: .9rem;
+}
