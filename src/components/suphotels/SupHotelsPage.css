@@ -1,4 +1,3 @@
-/* SupHotelsPage — page-specific styles */
-.suphotels-page {
-  padding-top: 68px;
-}
+/* SupHotelsPage — page wrapper only
+   (shared sdoc-* classes live in globals.css) */
+.suphotels-page { padding-top: 0; }

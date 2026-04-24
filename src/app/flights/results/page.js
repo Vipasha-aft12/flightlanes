@@ -1,6 +1,8 @@
 'use client';
 import { useState, useEffect, useMemo, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
+import '@/components/flights/flights.css';
+import '@/components/shared/results.css';
 import SummaryBar from '@/components/flights/SummaryBar';
 import FlexibleDates from '@/components/flights/FlexibleDates';
 import FilterSidebar from '@/components/flights/FilterSidebar';

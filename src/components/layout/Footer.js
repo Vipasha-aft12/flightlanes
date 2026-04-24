@@ -25,7 +25,7 @@ export default function Footer() {
             <ul>
               <li><Link href="/flights">Cheap Flights</Link></li>
               <li><Link href="/hotels">Hotel Deals</Link></li>
-              <li><Link href="/cars">Car Rentals</Link></li>
+              <li><Link href="/car-rentals/">Car Rentals</Link></li>
               <li><Link href="/packages">Holiday Packages</Link></li>
               <li><Link href="/cruises">Cruises</Link></li>
             </ul>
@@ -51,7 +51,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <div>&copy; 2025 Flightlanes Inc. All rights reserved. 🇺🇸 United States</div>
+          <div>&copy; 2025 Fareoworld Inc. All rights reserved. 🇺🇸 United States</div>
           <div className="trust-badges">
             <div className="tbadge">🔒 SSL Secure</div>
             <div className="tbadge">✓ PCI Compliant</div>

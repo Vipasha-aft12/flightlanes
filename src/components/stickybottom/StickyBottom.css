@@ -1,0 +1,23 @@
+.sticky-bottom {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .sticky-bottom {
+        display: flex;
+        background: #FF6B35;
+        padding: 10px 15px;
+        color: white;
+    }
+
+    .sticky-bottom p {
+        font-size: 1.3rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .sticky-bottom a {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}

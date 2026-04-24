@@ -12,8 +12,8 @@ export default function Hero() {
           <div className="badge-dot" aria-hidden="true" />
           ✈ Over 2 million happy travelers
         </div>
-        <h1>Your Next Adventure<br /><em>Starts Here</em></h1>
-        <p>Search, compare, and book flights, hotels, and travel packages at unbeatable prices. The smartest way to travel.</p>
+        <h1>Explore Destinations with the <br /><em>Best Deals</em></h1>
+        <p>Find the best flight tickets, Hotel, and travel packages, compare options, and book your perfect trip with ease.</p>
       </div>
 
       <div className="search-box fade-up" style={{ transitionDelay: '.15s' }}>

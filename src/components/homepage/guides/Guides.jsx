@@ -37,7 +37,8 @@ export default function Guides() {
         <div className="section-header fade-up">
           <div className="section-label">Travel Blog</div>
           <h2 id="guides-heading">Guides &amp; Travel Inspiration</h2>
-          <p>Expert tips, destination guides and travel hacks to help you plan the perfect trip.</p>
+          <p>Explore expert travel tips, destination guides, and booking insights to help you plan flights, hotels, and travel packages with ease.
+</p>
         </div>
         <div className="guides-grid fade-up">
           {GUIDES.map((g, i) => (

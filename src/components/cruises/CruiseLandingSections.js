@@ -104,7 +104,7 @@ function WhyCruise() {
             { i: '🍽', t: 'All Meals Included', d: 'Breakfast, lunch, dinner and late-night snacks are all part of your cruise fare. No meal planning needed.' },
             { i: '⚓', t: 'Multiple Ports of Call', d: 'Visit 4–8 incredible destinations in one trip — unpack once and wake up in a new port every day.' },
             { i: '💳', t: 'Low Deposit Booking', d: 'Secure your cabin with a low deposit and pay the full balance 90 days before departure.' },
-            { i: '🏖', t: 'Shore Excursion Deals', d: "Book shore excursions through Flightlanes at exclusive discounted rates — skip the ship's mark-up." },
+            { i: '🏖', t: 'Shore Excursion Deals', d: "Book shore excursions through Fareoworld at exclusive discounted rates — skip the ship's mark-up." },
           ].map((w, i) => (
             <div className="why-card" key={i}><div className="why-icon" style={{ fontSize: '1.5rem' }}>{w.i}</div><h3>{w.t}</h3><p>{w.d}</p></div>
           ))}
@@ -118,7 +118,7 @@ function Reviews() {
   const ref = useFadeUp();
   const reviews = [
     { text: '"Our Caribbean cruise was magical — 7 nights of pure paradise. The kids loved the water slides and we loved the included dining."', name: 'Sarah & Mike D.', loc: 'Texas · Verified', initials: 'SD' },
-    { text: '"Mediterranean cruise through Flightlanes saved us $400 compared to booking direct. Santorini sunset from the ship was unforgettable."', name: 'James R.', loc: 'New York · Verified', initials: 'JR' },
+    { text: '"Mediterranean cruise through Fareoworld saved us $400 compared to booking direct. Santorini sunset from the ship was unforgettable."', name: 'James R.', loc: 'New York · Verified', initials: 'JR' },
     { text: '"The Alaska glacier cruise was a bucket-list experience. Watching whales from the deck while sipping hot chocolate — incredible."', name: 'Patricia L.', loc: 'California · Verified', initials: 'PL' },
   ];
   return (

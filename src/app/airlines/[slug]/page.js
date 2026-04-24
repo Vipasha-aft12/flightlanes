@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import AirlineDetailPage from '@/components/airlinedetail/AirlineDetailPage';
 
 export const metadata = {
-  title: 'Airline Information | Flightlanes',
+  title: 'Airline Information | Fareoworld',
   description: 'Detailed airline info including routes, fleet, reviews.',
 };
 

@@ -16,7 +16,7 @@ export default function AppDownload() {
             Mobile App
           </div>
           <h2 id="app-heading">Your Travels, Always in Your Pocket</h2>
-          <p>Download the Flightlanes app — manage bookings, check in, get real-time flight alerts and earn rewards on the go.</p>
+          <p>Download the Fareoworld app — manage bookings, check in, get real-time flight alerts and earn rewards on the go.</p>
 
           <div className="app-feats">
             {APP_FEATS.map((f, i) => (
@@ -57,7 +57,7 @@ export default function AppDownload() {
         <div className="app-phones fade-up" aria-hidden="true">
           <div className="phone-mock short">
             <div className="phone-screen">
-              <div className="phone-logo">Flightlanes</div>
+              <div className="phone-logo">Fareoworld</div>
               <div className="phone-route">🗓 My Trips</div>
               <div style={{ fontSize: '.76rem', opacity: .7 }}>JFK → CDG · Jun 14</div>
               <div style={{ fontSize: '.7rem', background: 'rgba(255,255,255,.1)', padding: '7px 11px', borderRadius: 9, width: '100%' }}>
@@ -69,7 +69,7 @@ export default function AppDownload() {
           <div className="phone-mock tall">
             <div className="phone-notch" />
             <div className="phone-screen">
-              <div className="phone-logo">✈ Flightlanes</div>
+              <div className="phone-logo">✈ Fareoworld</div>
               <div className="phone-route">NYC → Paris</div>
               <div className="phone-price">$349</div>
               <div style={{ fontSize: '.68rem', opacity: .7 }}>Non-stop · 7h 15m</div>

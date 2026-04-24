@@ -48,10 +48,10 @@ export function DealsTicker() {
 
 export function StatsSection() {
   const stats = [
-    { num: '500+', label: 'Airlines Worldwide' },
-    { num: '2M+', label: 'Happy Travelers' },
-    { num: '150+', label: 'Countries Covered' },
-    { num: '4.8★', label: 'Average Rating' },
+    { num: '500+', label: 'Satisfied Travelers' },
+    { num: '2M+', label: 'Airlines to Book From' },
+    { num: '4740+', label: 'Routes Worldwide' },
+    { num: '4.8★', label: 'Customer Rating' },
   ];
   return (
     <div className="stats-section">

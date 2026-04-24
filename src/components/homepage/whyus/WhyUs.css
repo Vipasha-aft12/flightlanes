@@ -1,13 +1,4 @@
-.why-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 24px; }
-.why-card {
-  background: white; border: 1.5px solid var(--g100); border-radius: var(--r);
-  padding: 30px 24px; text-align: center; transition: all var(--tr);
-}
-.why-card:hover { border-color: var(--teal); box-shadow: 0 0 0 4px var(--ice); transform: translateY(-4px); }
-.why-icon { width: 60px; height: 60px; background: var(--ice); border-radius: 16px; display: flex; align-items: center; justify-content: center; margin: 0 auto 18px; color: var(--teal); }
-.why-icon svg { width: 28px; height: 28px; }
-.why-card h3 { font-size: 1.05rem; margin-bottom: 8px; }
-.why-card p { font-size: .88rem; color: var(--g600); line-height: 1.6; }
+
 @media (max-width: 1024px){
   .why-grid{grid-template-columns: repeat(2,1fr);}
 }

@@ -1,15 +1,4 @@
-.trend-scroll { display: flex; gap: 14px; overflow-x: auto; padding-bottom: 10px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
-.trend-scroll::-webkit-scrollbar { display: none; }
-.trend-pill {
-  flex-shrink: 0; display: flex; align-items: center; gap: 10px;
-  background: white; border: 1.5px solid var(--g100); border-radius: 100px;
-  padding: 9px 16px 9px 9px; cursor: pointer; transition: all var(--tr); white-space: nowrap;
-}
-.trend-pill:hover { border-color: var(--teal); box-shadow: 0 4px 14px rgba(0,0,0,.1); transform: translateY(-2px); }
-.trend-flag { width: 34px; height: 34px; border-radius: 50%; overflow: hidden; flex-shrink: 0; }
-.trend-flag img { width: 100%; height: 100%; object-fit: cover; }
-.trend-city { font-weight: 700; font-size: .88rem; color: var(--g800); }
-.trend-price { font-size: .75rem; color: var(--teal); font-weight: 600; }
+
 .trend-scroll{display:flex;gap:14px;overflow-x:auto;padding-bottom:10px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .trend-scroll::-webkit-scrollbar{display:none}
 .trend-pill{flex-shrink:0;display:flex;align-items:center;gap:10px;background:white;border:1.5px solid var(--g100);border-radius:100px;padding:9px 16px 9px 9px;cursor:pointer;transition:all var(--tr);white-space:nowrap}

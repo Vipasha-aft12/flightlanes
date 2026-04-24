@@ -1,0 +1,38 @@
+/* ═══ CRUISE DETAIL STYLES ═══ */
+/* Cruise hero + route map */
+.crd-banner{border-radius:16px;overflow:hidden;height:300px;position:relative;margin-bottom:18px}
+.crd-banner img{width:100%;height:100%;object-fit:cover;display:block}
+.crd-banner-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,20,40,.75) 0%,transparent 60%)}
+.crd-banner-info{position:absolute;bottom:0;left:0;right:0;padding:22px 26px}
+.crd-ship-line{font-size:.75rem;font-weight:700;color:rgba(255,255,255,.8);text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px}
+.crd-title{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:900;color:white;line-height:1.2;margin-bottom:8px}
+.crd-route-pills{display:flex;gap:6px;flex-wrap:wrap}
+.crd-route-pill{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);color:white;font-size:.72rem;font-weight:600;padding:4px 11px;border-radius:100px}
+
+/* Cruise ports of call */
+.crd-ports{display:flex;flex-direction:column;gap:0}
+.crd-port{display:flex;gap:14px;padding-bottom:18px;position:relative}
+.crd-port:last-child{padding-bottom:0}
+.crd-port-day{display:flex;flex-direction:column;align-items:center;flex-shrink:0;width:28px}
+.crd-port-dot{width:28px;height:28px;border-radius:50%;background:var(--teal);color:white;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:800;flex-shrink:0}
+.crd-port-line{flex:1;width:2px;background:#eaecef;margin-top:3px}
+.crd-port:last-child .crd-port-line{display:none}
+.crd-port-info{flex:1;padding-top:4px}
+.crd-port-name{font-size:.88rem;font-weight:800;color:var(--g800)}
+.crd-port-desc{font-size:.78rem;color:var(--g600);line-height:1.5;margin-top:2px}
+
+/* Cabin types */
+.crd-cabin-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.crd-cabin{border:2px solid #eaecef;border-radius:12px;overflow:hidden;cursor:pointer;transition:all .2s}
+.crd-cabin:hover{border-color:var(--teal)}
+.crd-cabin-img{height:110px;overflow:hidden}
+.crd-cabin-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
+.crd-cabin:hover .crd-cabin-img img{transform:scale(1.05)}
+.crd-cabin-body{padding:12px 14px}
+.crd-cabin-name{font-size:.84rem;font-weight:800;color:var(--g800);margin-bottom:2px}
+.crd-cabin-desc{font-size:.72rem;color:var(--g600);line-height:1.4;margin-bottom:8px}
+.crd-cabin-price{font-size:.9rem;font-weight:800;color:var(--teal)}
+.crd-cabin-per{font-size:.65rem;color:var(--g400);font-weight:400}
+
+/* Shared review cards reuse hd-rev-* */
+/* Shared policies reuse hd-pol-* */

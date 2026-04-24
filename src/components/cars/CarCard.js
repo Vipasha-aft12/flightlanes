@@ -6,8 +6,8 @@ export default function CarCard({ car, days = 4 }) {
   const router = useRouter();
   const { showLoading } = useLoading();
   const total = car.price * days;
-  const bookUrl = `/cars/booking/${car.id}?price=${car.price}&name=${encodeURIComponent(car.name)}&company=${encodeURIComponent(car.company.name)}&type=${car.type}&days=${days}`;
-  const detailUrl = `/cars/detail/${car.id}?price=${car.price}&name=${encodeURIComponent(car.name)}&company=${encodeURIComponent(car.company.name)}&type=${car.type}&days=${days}`;
+  const bookUrl = `/car-rentals/booking/${car.id}?price=${car.price}&name=${encodeURIComponent(car.name)}&company=${encodeURIComponent(car.company.name)}&type=${car.type}&days=${days}`;
+  const detailUrl = `/car-rentals/detail/${car.id}?price=${car.price}&name=${encodeURIComponent(car.name)}&company=${encodeURIComponent(car.company.name)}&type=${car.type}&days=${days}`;
 
   return (
     <div className={`car-card ${car.featured ? 'featured' : ''}`}>

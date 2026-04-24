@@ -1,7 +1,7 @@
 import PolicyCookiePage from '@/components/policycookie/PolicyCookiePage';
 
 export const metadata = {
-  title: 'Cookie Policy | Flightlanes',
+  title: 'Cookie Policy | Fareoworld',
   description: 'Learn about our use of cookies.',
 };
 

@@ -1,11 +1,7 @@
 .alert-bg { background: linear-gradient(135deg, #0d1b2a, #1a3444); padding: 64px 24px; text-align: center; color: white; }
-.alert-bg h2 { color: white; font-size: 2rem; margin-bottom: 10px; }
 .alert-bg > div > p { color: rgba(255,255,255,.72); max-width: 520px; margin: 0 auto 28px; line-height: 1.7; }
-.alert-form { display: flex; gap: 10px; justify-content: center; max-width: 520px; margin: 0 auto; flex-wrap: wrap; }
 .alert-form input { flex: 1; min-width: 180px; height: 50px; padding: 0 18px; border: none; border-radius: 11px; font-size: .92rem; font-family: 'Open Sans', sans-serif; outline: none; }
 .alert-form button { height: 50px; padding: 0 26px; background: linear-gradient(135deg, var(--orange), #e55a2a); color: white; border: none; border-radius: 11px; font-weight: 700; font-size: .92rem; cursor: pointer; font-family: 'Open Sans', sans-serif; white-space: nowrap; }
-.alert-feats { display: flex; justify-content: center; gap: 28px; margin-top: 22px; flex-wrap: wrap; }
-.alert-feat { display: flex; align-items: center; gap: 7px; color: rgba(255,255,255,.75); font-size: .84rem; }
 @media (max-width: 768px){
   .alert-form{flex-direction: column;}
   .alert-feats{gap: 14px; flex-direction: column; align-items: center;}

@@ -15,8 +15,7 @@ export default function Loyalty() {
         </div>
         <h2 id="loyalty-heading">Earn Miles Every Trip</h2>
         <p>
-          Join the Flightlanes Rewards program and earn points on every booking.
-          Redeem for free flights, hotel nights and exclusive upgrades.
+          Join the Fareoworld Rewards program and earn points on every flight booking, hotel stay, and travel package. Redeem rewards for flight tickets, hotel nights, and exclusive upgrades.
         </p>
         <div className="tiers" role="list">
           {TIERS.map((tier, i) => (

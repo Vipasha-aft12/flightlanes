@@ -1,7 +1,7 @@
 import BlogPage from '@/components/blog/BlogPage';
 
 export const metadata = {
-  title: 'Travel Blog | Flightlanes',
+  title: 'Travel Blog | Fareoworld',
   description: 'Expert travel tips and destination guides.',
 };
 

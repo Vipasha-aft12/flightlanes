@@ -2,6 +2,8 @@
 import { useState, Suspense } from 'react';
 import { useSearchParams, useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
+import '@/components/packages/packagesDetail.css';
+import '@/components/shared/detail.css';
 import { useLoading } from '@/components/loading/LoadingContext';
 
 function PackageDetailContent() {

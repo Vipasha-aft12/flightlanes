@@ -1,7 +1,8 @@
-/* BlogPage styles */
-.blog-page { padding-top: 68px; }
+/* BlogPage — page-specific styles
+   (shared arl-* classes live in globals.css) */
+.blog-page { padding-top: 0; }
 
-/* Extracted inline styles */
+/* ── Extracted inline: blog card logo override ── */
 .is-blo-5eac1d {
   background: var(--teal);
   color: white;

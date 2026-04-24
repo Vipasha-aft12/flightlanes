@@ -1,6 +1,5 @@
 import './Trending.css';
 const TRENDING = [
-  { img: 'https://images.unsplash.com/photo-1490750967868-88df5691cc1f?w=80&h=80&fit=crop', city: 'Bali, Indonesia', price: 'from $699 · +312% 🔥' },
   { img: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=80&h=80&fit=crop', city: 'Iceland', price: 'from $479 · +204% 🔥' },
   { img: 'https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=80&h=80&fit=crop', city: 'Lisbon, Portugal', price: 'from $389 · +188%' },
   { img: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?w=80&h=80&fit=crop', city: 'Dubai, UAE', price: 'from $549 · +165%' },

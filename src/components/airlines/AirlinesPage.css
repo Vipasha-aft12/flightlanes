@@ -1,4 +1,3 @@
-/* AirlinesPage — page-specific styles */
-.airlines-page {
-  padding-top: 68px;
-}
+/* AirlinesPage — page wrapper only
+   (shared arl-* classes live in globals.css) */
+.airlines-page { padding-top: 0; }

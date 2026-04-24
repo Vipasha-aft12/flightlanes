@@ -1,7 +1,7 @@
 import SupFlightsPage from '@/components/supflights/SupFlightsPage';
 
 export const metadata = {
-  title: 'Flight Support | Flightlanes',
+  title: 'Flight Support | Fareoworld',
   description: 'Help with flight bookings and changes.',
 };
 

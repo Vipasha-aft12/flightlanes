@@ -21,31 +21,31 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: 'Flightlanes – Book Flights, Hotels & Travel Deals',
+  title: 'Fareoworld – Book Flights, Hotels & Travel Deals',
   description:
-    'Search, compare and book flights, hotels, car rentals, cruises and holiday packages at unbeatable prices. Over 2 million happy travelers trust Flightlanes.',
+    'Search, compare and book flights, hotels, car rentals, cruises and holiday packages at unbeatable prices. Over 2 million happy travelers trust Fareoworld.',
   keywords:
     'cheap flights, book flights online, hotel deals, car rentals, holiday packages, cruise deals, travel comparison, best flight prices',
-  authors: [{ name: 'Flightlanes Inc.' }],
+  authors: [{ name: 'Fareoworld Inc.' }],
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
-    title: 'Flightlanes – Book Flights, Hotels & Travel Deals',
+    title: 'Fareoworld – Book Flights, Hotels & Travel Deals',
     description:
       'Search, compare and book flights, hotels, car rentals, cruises and holiday packages. Best travel deals for US travelers.',
     type: 'website',
     locale: 'en_US',
-    siteName: 'Flightlanes',
-    url: 'https://www.flightlanes.com',
+    siteName: 'Fareoworld',
+    url: 'https://www.Fareoworld.com',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Flightlanes – Book Flights, Hotels & Travel Deals',
+    title: 'Fareoworld – Book Flights, Hotels & Travel Deals',
     description:
       'Search, compare and book flights, hotels, car rentals, cruises and holiday packages.',
-    site: '@flightlanes',
+    site: '@Fareoworld',
   },
   alternates: {
-    canonical: 'https://www.flightlanes.com',
+    canonical: 'https://www.Fareoworld.com',
   },
 };
 

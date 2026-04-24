@@ -2,6 +2,8 @@
 import { useState, Suspense } from 'react';
 import { useSearchParams, useParams } from 'next/navigation';
 import Link from 'next/link';
+import '@/components/shared/booking.css';
+import '@/components/shared/confirmation.css';
 
 function BookingContent() {
   const params = useParams();
@@ -42,7 +44,7 @@ function BookingContent() {
         <div className="bkp-topbar"><div className="bkp-topbar-inner"><Link href="/packages/results" className="bkp-back-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M15 18l-6-6 6-6"/></svg> Back to Results</Link><div className="bkp-secure-badge">🔒 256-bit SSL · Secure checkout</div></div></div>
 
         <div className="bkp-header"><div className="bkp-header-inner">
-          <div className="bkp-brand">🎁 Flightlanes — Secure Package Booking</div>
+          <div className="bkp-brand">🎁 Fareoworld — Secure Package Booking</div>
           <div className="bkp-stepbar">{[1,2,3,4].map((s,i)=>(<div key={s} style={{display:'contents'}}><div className={`bkp-step ${step===s?'active':''} ${step>s?'done':''}`}><div className="bkp-step-dot">{step>s?'✓':s}</div><div className="bkp-step-lbl">{['Package Details','Traveler Info','Payment','Confirmed'][i]}</div></div>{s<4&&<div className={`bkp-step-line ${step>s?'done':''}`}></div>}</div>))}</div>
         </div></div>
 

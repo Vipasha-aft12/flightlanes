@@ -43,7 +43,8 @@ export default function PriceComparison() {
         <div className="section-header fade-up">
           <div className="section-label">Price Comparison</div>
           <h2 id="compare-heading">See How Much You Save</h2>
-          <p>We scan 500+ airlines in real time so you always get the lowest fare. Live sample: NYC → London.</p>
+          <p>We compare airfares from 500+ airlines in real time across 4740+ routes so you always get the lowest flight ticket prices and best travel deals. Live sample route: NYC to London.
+</p>
         </div>
         <div className="compare-table fade-up" role="table" aria-label="Flight price comparison">
           <div className="compare-head" role="row">

@@ -4,25 +4,25 @@ const STEPS = [
     icon: '🔍',
     badge: '1',
     title: 'Search',
-    desc: 'Enter destination, dates & preferences. Compare 500+ airlines instantly.',
+    desc: 'Enter your destination, travel dates, and preferences. Compare cheap airline tickets and airfares from 500+ airlines instantly.',
   },
   {
     icon: '⚖️',
     badge: '2',
     title: 'Compare',
-    desc: "See side-by-side prices, reviews and availability. Pick what's best for you.",
+    desc: "View side-by-side flight tickets, prices, and availability to choose the best flight deals and travel options for your trip.",
   },
   {
     icon: '💳',
     badge: '3',
     title: 'Book',
-    desc: 'Secure checkout in 60 seconds. Visa, Mastercard, PayPal or Apple Pay.',
+    desc: 'Complete your flight booking in seconds with secure checkout and real-time confirmation using Visa, Mastercard, PayPal, or Apple Pay.',
   },
   {
     icon: '✈️',
     badge: '4',
     title: 'Fly!',
-    desc: 'Instant e-ticket confirmation. Manage everything from the Flightlanes app.',
+    desc: 'Get instant flight ticket confirmation and manage your booking easily with Fareoworld. Enjoy a smooth travel experience with 24/7 customer support.',
   },
 ];
 
@@ -33,7 +33,7 @@ export default function HowItWorks() {
         <div className="section-header fade-up">
           <div className="section-label">Simple &amp; Fast</div>
           <h2 id="steps-heading">Book Your Trip in 4 Easy Steps</h2>
-          <p>From search to boarding pass in minutes. No hidden fees, no complicated forms.</p>
+          <p>From search to boarding pass in minutes with accurate price and a simple way to book flights, hotels, and travel packages.</p>
         </div>
         <ol className="steps-row fade-up" style={{ listStyle: 'none', padding: 0 }}>
           {STEPS.map((step, i) => (

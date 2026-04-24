@@ -2,6 +2,9 @@
 import { useState, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
+import '@/components/hotels/hotels.css';
+import '@/components/shared/booking.css';
+import '@/components/shared/confirmation.css';
 
 function BookingContent() {
   const searchParams = useSearchParams();
@@ -362,7 +365,7 @@ function BookingContent() {
 
                   <div className="p-3 rounded-3 text-start mb-4 bkp-next-box">
                     <div className="small fw-bold text-uppercase mb-2 bkp-next-title">What happens next</div>
-                    {['📧 Confirmation email with full booking details sent to your inbox', '🔑 Check-in instructions will arrive 24 hours before your stay', '📱 Download the Flightlanes app for mobile check-in & room key'].map((s, i) => (
+                    {['📧 Confirmation email with full booking details sent to your inbox', '🔑 Check-in instructions will arrive 24 hours before your stay', '📱 Download the Fareoworld app for mobile check-in & room key'].map((s, i) => (
                       <div key={i} className="d-flex align-items-center gap-2 small mb-2 bkp-next-step">{s}</div>
                     ))}
                   </div>

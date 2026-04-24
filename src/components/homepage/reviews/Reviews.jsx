@@ -16,7 +16,7 @@ const REVIEWS = [
   },
   {
     stars: '★★★★★',
-    text: '"Flightlanes beat every other site on price for our family of four to Hawaii. Saved over $400 and the loyalty rewards are a great bonus for frequent travelers."',
+    text: '"Fareoworld beat every other site on price for our family of four to Hawaii. Saved over $400 and the loyalty rewards are a great bonus for frequent travelers."',
     initials: 'JP',
     name: 'Jennifer P.',
     loc: 'Austin, TX · Verified Traveler',
@@ -30,7 +30,7 @@ export default function Reviews() {
         <div className="section-header fade-up" style={{ color: 'white' }}>
           <div className="section-label" style={{ background: 'rgba(255,255,255,.15)', color: 'white' }}>Customer Stories</div>
           <h2 id="reviews-heading" style={{ color: 'white' }}>What Travelers Say</h2>
-          <p style={{ color: 'rgba(255,255,255,.75)' }}>Real reviews from real travelers who booked their dream trips with Flightlanes.</p>
+          <p style={{ color: 'rgba(255,255,255,.75)' }}>Real reviews from travelers who booked flights, hotels, and travel packages with Fareoworld and enjoyed smooth, hassle free journeys.</p>
         </div>
         <div className="reviews-grid fade-up">
           {REVIEWS.map((r, i) => (

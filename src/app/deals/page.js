@@ -1,7 +1,7 @@
 import DealsPage from '@/components/deals/DealsPage';
 
 export const metadata = {
-  title: 'Travel Deals & Offers | Flightlanes',
+  title: 'Travel Deals & Offers | Fareoworld',
   description: 'Exclusive travel deals on flights, hotels, packages.',
 };
 

@@ -4,28 +4,28 @@ import './FAQ.css';
 
 const FAQS = [
   {
-    q: 'How do I get the cheapest flight prices?',
-    a: 'Flightlanes scans 500+ airlines in real-time. Book 6–8 weeks ahead, fly mid-week (Tue/Wed), and enable price alerts to be notified the moment fares drop to your target.',
+    q: '1. How do you find the best flight ticket prices?',
+    a: 'We compare real-time airfares across 500+ airlines and 4740+ routes to show the most affordable options available for your trip.',
   },
   {
-    q: 'Can I cancel or change my booking?',
-    a: 'Yes! Most bookings can be changed or cancelled from your account dashboard. Look for the "Free Cancellation" badge when booking for maximum flexibility.',
+    q: '2. Can I book international and domestic flights here?',
+    a: 'Yes, you can book both domestic and international flight tickets across multiple destinations with flexible options.',
   },
   {
-    q: 'Is my payment information secure?',
-    a: 'Absolutely. Flightlanes uses 256-bit SSL encryption, is PCI-DSS Level 1 compliant, and never stores your full card details. We support Visa, Mastercard, Amex, PayPal and Apple Pay.',
+    q: '3. Are there any hidden charges in the final price?',
+    a: 'No, all prices are shown transparently before booking, so you know the total cost of your flight in advance.',
   },
   {
-    q: 'Do you offer a price match guarantee?',
-    a: 'Yes! Find a lower price within 24 hours of booking and we\'ll match it and refund the difference. Contact support with a screenshot of the lower price.',
+    q: '4. How fast is the booking process?',
+    a: 'You can complete your flight booking in just a few minutes with instant confirmation after successful payment.',
   },
   {
-    q: 'How do Flightlanes Rewards points work?',
-    a: 'Earn 1 point per $1 on flights, 2 on hotels, 3 on packages. Redeem 5,000 points for $50 off your next booking. Elite members get double points and exclusive perks.',
+    q: '5. What support options are available if I need help?',
+    a: 'Our 24/7 support team is available through chat, phone, and email to assist with bookings, changes, or travel queries.',
   },
   {
-    q: 'How do I contact customer support?',
-    a: "We're available 24/7 via live chat (bottom-right button), phone at 1-800-FLIGHT-1, or email at support@flightlanes.com. Average chat response under 3 minutes.",
+    q: '6. Why should I book through Fareoworld?',
+    a: "You get access to multiple airlines, competitive fares, real-time availability, and a smooth booking experience in one place.",
   },
 ];
 
@@ -42,7 +42,7 @@ export default function FAQ() {
         <div className="section-header fade-up">
           <div className="section-label">Got Questions?</div>
           <h2 id="faq-heading">Frequently Asked Questions</h2>
-          <p>Everything you need to know about booking with Flightlanes.</p>
+          <p>Everything you need to know about booking with Fareoworld.</p>
         </div>
 
         <div className="faq-grid fade-up">

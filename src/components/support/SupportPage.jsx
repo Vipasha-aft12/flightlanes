@@ -51,7 +51,7 @@ export default function SupportPage() {
   <div className="sup3-contact-pills">
     <div className="sup3-pill"><div className="sup3-pill-icon">💬</div><div className="sup3-pill-info"><div className="sup3-pill-label">Live Chat</div><div className="sup3-pill-val">Available 24/7 · Under 3 min</div></div></div>
     <div className="sup3-pill"><div className="sup3-pill-icon">📞</div><div className="sup3-pill-info"><div className="sup3-pill-label">Phone</div><div className="sup3-pill-val">+1 (888) 000-0000</div></div></div>
-    <div className="sup3-pill"><div className="sup3-pill-icon">📧</div><div className="sup3-pill-info"><div className="sup3-pill-label">Email</div><div className="sup3-pill-val">support@flightlanes.com</div></div></div>
+    <div className="sup3-pill"><div className="sup3-pill-icon">📧</div><div className="sup3-pill-info"><div className="sup3-pill-label">Email</div><div className="sup3-pill-val">support@fareoworld.com</div></div></div>
     <div className="sup3-pill"><div className="sup3-pill-icon">🚨</div><div className="sup3-pill-info"><div className="sup3-pill-label">Emergency</div><div className="sup3-pill-val">+1 (888) 000-9999 · 24h</div></div></div>
   </div>
 

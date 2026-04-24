@@ -15,7 +15,7 @@ export default function FeaturedHotels() {
         <div className="text-center mb-5 fade-up">
           <div className="section-label">Editor's Picks</div>
           <h2>Top-Rated Hotels This Week</h2>
-          <p className="section-subtitle">Highest-rated hotels by Flightlanes travelers — verified reviews, no paid rankings.</p>
+          <p className="section-subtitle">Highest-rated hotels by Fareoworld travelers — verified reviews, no paid rankings.</p>
         </div>
         <div className="row g-4 fade-up">
           {hotels.map((h, i) => (

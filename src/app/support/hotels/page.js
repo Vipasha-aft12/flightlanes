@@ -1,7 +1,7 @@
 import SupHotelsPage from '@/components/suphotels/SupHotelsPage';
 
 export const metadata = {
-  title: 'Hotel Support | Flightlanes',
+  title: 'Hotel Support | Fareoworld',
   description: 'Help with hotel reservations.',
 };
 

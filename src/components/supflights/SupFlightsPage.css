@@ -1,4 +1,3 @@
-/* SupFlightsPage — page-specific styles */
-.supflights-page {
-  padding-top: 68px;
-}
+/* SupFlightsPage — page wrapper only
+   (shared sdoc-* classes live in globals.css) */
+.supflights-page { padding-top: 0; }

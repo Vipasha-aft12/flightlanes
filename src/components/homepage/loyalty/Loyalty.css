@@ -1,12 +1,5 @@
 .loyalty-section { background: linear-gradient(135deg, var(--td), var(--teal)); padding: 70px 24px; color: white; text-align: center; }
-.loyalty-section h2 { color: white; font-size: 2.2rem; margin-bottom: 12px; }
 .loyalty-section > div > p { color: rgba(255,255,255,.8); max-width: 520px; margin: 0 auto 36px; line-height: 1.7; }
-.tiers { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 32px; }
-.tier-card { background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2); border-radius: 14px; padding: 22px 28px; min-width: 160px; text-align: center; transition: all var(--tr); }
-.tier-card:hover { background: rgba(255,255,255,.18); transform: translateY(-4px); }
-.tier-icon { font-size: 2rem; margin-bottom: 8px; }
-.tier-name { font-weight: 700; font-size: 1rem; margin-bottom: 4px; }
-.tier-pts { font-size: .8rem; color: rgba(255,255,255,.65); }
 @media (max-width: 768px){
   .tiers{gap: 12px;}
   .tier-card{min-width: 130px; padding: 16px 20px;}

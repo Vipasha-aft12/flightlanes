@@ -14,7 +14,8 @@ export default function Destinations() {
         <div className="section-header fade-up">
           <div className="section-label">Explore the World</div>
           <h2 id="destinations-heading">Popular Destinations</h2>
-          <p>Handpicked destinations loved by our travelers — discover iconic cities, tropical escapes, and hidden gems.</p>
+          <p>Discover top travel destinations and find the best airfares to book your next trip with ease.
+</p>
         </div>
         <div className="destinations-grid fade-up">
           {DESTINATIONS.map((d, i) => (

@@ -1,0 +1,49 @@
+/* ══════════════════════════════════════════════════════════════
+   SHARED POLICY PAGE STYLES
+   Used by: privacy, terms, refund, cancellation, cookie, contact, about
+   
+   This file is the SINGLE authoritative source for policy-page
+   styles. Previously these rules were scattered across:
+     - 6 separate PolicyXxxPage.css files (duplicated base rules)
+     - components/flights/flights.css (polished .pol-* ruleset)
+   Both have been consolidated here.
+   ══════════════════════════════════════════════════════════════ */
+
+/* ── Section wrapper (legacy, still referenced by <section className="site-policy">) ── */
+.site-policy {
+  background: #eee;
+  padding: 80px 0 0 0;
+}
+.site-policy a  { color: #006D77 !important; font-weight: 600; }
+.site-policy h1 { color: #006D77; font-size: 2rem; font-weight: 700; }
+.site-policy h2 { font-size: 1.5rem; color: black; }
+.site-policy h3 { font-size: 1.4rem; }
+.site-policy h4 { font-size: 1.3rem; }
+.site-policy p  { font-size: 1rem; }
+.site-policy li { font-size: 0.9rem; }
+
+/* ── Policy page layout and content (authoritative ruleset) ── */
+.pol-wrap { max-width: 860px; margin: 0 auto; padding: 80px 28px 80px; }
+.pol-back { display: inline-flex; align-items: center; gap: 6px; font-size: .82rem; font-weight: 700; color: var(--teal); background: none; border: none; cursor: pointer; font-family: 'Open Sans', sans-serif; padding: 0; margin-bottom: 28px; }
+.pol-back:hover { opacity: .75; }
+.pol-icon { font-size: 3rem; margin-bottom: 14px; }
+.pol-badge { display: inline-block; background: var(--ice); color: var(--teal); font-size: .65rem; font-weight: 800; padding: 4px 14px; border-radius: 100px; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 14px; }
+.pol-title { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 900; color: var(--g800); margin: 0 0 10px; line-height: 1.2; }
+.pol-updated { font-size: .78rem; color: var(--g400); margin-bottom: 20px; }
+.pol-divider { height: 2px; background: linear-gradient(to right, var(--teal), transparent); margin-bottom: 32px; border-radius: 1px; }
+.pol-content { font-size: .93rem; color: var(--g700); line-height: 1.85; }
+.pol-content h2 { font-family: 'Playfair Display', serif; font-size: 1.25rem; font-weight: 900; color: var(--g800); margin: 2rem 0 .8rem; }
+.pol-content h3 { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 800; color: var(--g800); margin: 1.5rem 0 .6rem; }
+.pol-content p { margin: 0 0 1.2rem; }
+.pol-content ul { margin: 0 0 1.2rem; padding-left: 1.5rem; }
+.pol-content li { margin-bottom: .5rem; }
+.pol-content strong { color: var(--g800); font-weight: 700; }
+.pol-highlight { background: var(--ice); border-left: 4px solid var(--teal); border-radius: 0 10px 10px 0; padding: 14px 18px; margin: 1.5rem 0; font-size: .88rem; color: var(--g700); line-height: 1.7; }
+
+/* ── Contact page — card layout ── */
+.pol-contact-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 1.5rem 0; }
+.pol-contact-card { background: white; border: 1.5px solid #eaecef; border-radius: 14px; padding: 20px; text-align: center; }
+.pol-contact-card-icon  { font-size: 1.8rem; margin-bottom: 8px; }
+.pol-contact-card-title { font-size: .82rem; font-weight: 800; color: var(--g800); margin-bottom: 5px; }
+.pol-contact-card-val   { font-size: .88rem; font-weight: 700; color: var(--teal); margin-bottom: 4px; }
+.pol-contact-card-sub   { font-size: .72rem; color: var(--g400); }

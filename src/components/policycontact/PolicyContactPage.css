@@ -1,4 +1,14 @@
-/* PolicyContactPage — page-specific styles */
-.policycontact-page {
-  padding-top: 68px;
+/* ──────────────────────────────────────────────────────────────
+   CONTACT PAGE — contact-specific additions.
+   Base policy rules live in shared/policyshared.css.
+   ────────────────────────────────────────────────────────────── */
+
+/* Override: contact page uses the orange accent for h2s */
+.site-policy h2 { color: #FF6B35; }
+
+.contact-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,.05) 0 6px 24px 0, rgba(0,0,0,.08) 0 0 0 1px;
 }

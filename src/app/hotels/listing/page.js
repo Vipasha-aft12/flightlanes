@@ -2,6 +2,8 @@
 import { useState, useEffect, useCallback, useMemo, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
+import '@/components/hotels/hotels.css';
+import '@/components/shared/results.css';
 import { useLoading } from '@/components/loading/LoadingContext';
 import { generateClientHotels } from '@/lib/clientFallback';
 
@@ -101,7 +103,7 @@ function HotelListingContent() {
     });
     if (savedId) params.set('dbId', savedId);
 
-    showLoading('hotel-detail', () => router.push(`/hotels/${hotel._id || hotel.slug || 'detail'}?${params}`));
+    showLoading('hotel-detail', () => router.push(`/hotels/detail/${hotel._id || hotel.slug || 'detail'}?${params}`));
   };
 
   return (

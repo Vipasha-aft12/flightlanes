@@ -68,7 +68,7 @@ export default function AuthModal({ open, defaultTab = 'login', onClose }) {
         ) : (
           <>
             <h2>Create Account</h2>
-            <p>Join free and start earning Flightlanes Rewards points on every booking.</p>
+            <p>Join free and start earning Fareoworld Rewards points on every booking.</p>
             <div className="modal-form">
               <input type="text" placeholder="Full name" autoComplete="name" aria-label="Full name" />
               <input type="email" placeholder="Email address" autoComplete="email" aria-label="Email address" />

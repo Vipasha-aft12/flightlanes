@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { useState, useRef, useEffect } from 'react';
 import { useRouter, usePathname } from 'next/navigation';
 import { useLoading } from '@/components/loading/LoadingContext';
+import './SearchBox.css';
 
 /* ─── Icons ─── */
 const SearchIcon = () => <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>;
@@ -18,7 +19,7 @@ const TAB_ICONS = {
 const TABS = [
   { id: 'flights', label: 'Flights', href: '/flights' },
   { id: 'hotels', label: 'Hotels', href: '/hotels' },
-  { id: 'cars', label: 'Cars', href: '/cars' },
+  { id: 'cars', label: 'Cars', href: '/car-rentals/' },
   { id: 'packages', label: 'Packages', href: '/packages' },
   { id: 'cruises', label: 'Cruises', href: '/cruises' },
 ];
@@ -486,12 +487,12 @@ export default function SearchBox({ defaultTab = 'flights' }) {
 
     else if (activeTab === 'cars') {
       const params = new URLSearchParams({
-        location: carLoc.query || 'Los Angeles, CA',
-        pickup: carPickup,
-        dropoff: carDropoff,
+        pickup: carLoc.query || 'Los Angeles, CA',
+        pickupDate: carPickup,
+        dropoffDate: carDropoff,
       });
       if (carType) params.set('type', carType);
-      url = `/cars/results?${params.toString()}`;
+      url = `/car-rentals/results?${params.toString()}`;
     }
 
     else if (activeTab === 'packages') {
@@ -524,16 +525,6 @@ export default function SearchBox({ defaultTab = 'flights' }) {
 
   return (
     <>
-    <div className="search-tabs" role="tablist">
-  {TABS.map(tab => (
-    <Link key={tab.id} href={tab.href}
-      className={`search-tab${activeTab === tab.id ? ' active' : ''}`}
-      role="tab" aria-selected={activeTab === tab.id}
-      onClick={() => setActiveTab(tab.id)}>
-      {TAB_ICONS[tab.id]}{tab.label}
-    </Link>
-  ))}
-</div>
       {/* TABS 
       <div className="search-tabs" role="tablist">
         {TABS.map(tab => (
@@ -543,6 +534,17 @@ export default function SearchBox({ defaultTab = 'flights' }) {
           </button>
         ))}
       </div> */}
+
+      <div className="search-tabs" role="tablist">
+        {TABS.map(tab => (
+          <Link key={tab.id} href={tab.href}
+            className={`search-tab${activeTab === tab.id ? ' active' : ''}`}
+            role="tab" aria-selected={activeTab === tab.id}
+            onClick={() => setActiveTab(tab.id)}>
+            {TAB_ICONS[tab.id]}{tab.label}
+          </Link>
+        ))}
+      </div>
 
       {/* ═══ FLIGHTS ═══ */}
       {activeTab === 'flights' && (<>

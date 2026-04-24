@@ -1,7 +1,7 @@
 import PolicyRefundPage from '@/components/policyrefund/PolicyRefundPage';
 
 export const metadata = {
-  title: 'Refund Policy | Flightlanes',
+  title: 'Refund Policy | Fareoworld',
   description: 'Understand our refund procedures.',
 };
 

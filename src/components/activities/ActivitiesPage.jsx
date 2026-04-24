@@ -103,7 +103,7 @@ export default function ActivitiesPage() {
   {/* WHY BOOK ACTIVITIES WITH US */}
   <section className="section is-act-f8531d">
     <div className="section-inner">
-      <div className="section-header fade-up"><div className="section-label">Why Book With Flightlanes</div><h2>The Easiest Way to Book Experiences</h2></div>
+      <div className="section-header fade-up"><div className="section-label">Why Book With Fareoworld</div><h2>The Easiest Way to Book Experiences</h2></div>
       <div className="why-grid fade-up">
         <div className="why-card"><div className="why-icon is-act-9a7d6d">📱</div><h3>Mobile Tickets</h3><p>Receive your ticket directly to your phone — no printing needed. Just show and go at the venue.</p></div>
         <div className="why-card"><div className="why-icon is-act-9a7d6d">⚡</div><h3>Skip-the-Line</h3><p>Most activities include skip-the-line access — no more waiting in long queues at popular attractions.</p></div>
@@ -160,7 +160,7 @@ export default function ActivitiesPage() {
     <div className="section-inner is-act-e2e1e0">
       <div className="section-label is-act-2d6452">Activity Rewards</div>
       <h2 className="is-act-171a67">Earn Points on Every Experience</h2>
-      <p>Book activities through Flightlanes and earn rewards points redeemable for free tours, hotel nights and flight upgrades.</p>
+      <p>Book activities through Fareoworld and earn rewards points redeemable for free tours, hotel nights and flight upgrades.</p>
       <div className="tiers">
         <div className="tier-card"><div className="tier-icon">🥉</div><div className="tier-name">Explorer</div><div className="tier-pts">0–5,000 pts</div></div>
         <div className="tier-card"><div className="tier-icon">🥈</div><div className="tier-name">Voyager</div><div className="tier-pts">5K–20K pts</div></div>

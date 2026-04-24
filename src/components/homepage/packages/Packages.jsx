@@ -36,7 +36,7 @@ export default function Packages() {
         <div className="section-header fade-up">
           <div className="section-label">Holiday Packages</div>
           <h2 id="packages-heading">Curated Travel Packages</h2>
-          <p>Complete vacation bundles — flights, hotels, transfers and activities included.</p>
+          <p>Easy vacation bundles with flights, hotels, transfers, and activities all included so you can travel stress free and enjoy every moment.</p>
         </div>
         <div className="packages-grid fade-up">
           {PACKAGES.map((pkg, i) => (

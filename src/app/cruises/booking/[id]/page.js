@@ -2,6 +2,8 @@
 import { useState, Suspense } from 'react';
 import { useSearchParams, useParams } from 'next/navigation';
 import Link from 'next/link';
+import '@/components/shared/booking.css';
+import '@/components/shared/confirmation.css';
 
 function BookingContent() {
   const params = useParams();
@@ -48,7 +50,7 @@ function BookingContent() {
         </div></div>
 
         <div className="bkp-header"><div className="bkp-header-inner">
-          <div className="bkp-brand">🚢 Flightlanes — Secure Cruise Booking</div>
+          <div className="bkp-brand">🚢 Fareoworld — Secure Cruise Booking</div>
           <div className="bkp-stepbar">
             {[1, 2, 3, 4].map((s, i) => (
               <div key={s} style={{ display: 'contents' }}>

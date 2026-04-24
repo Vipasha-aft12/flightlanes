@@ -1,7 +1,7 @@
 import SupCarsPage from '@/components/supcars/SupCarsPage';
 
 export const metadata = {
-  title: 'Car Rental Support | Flightlanes',
+  title: 'Car Rental Support | Fareoworld',
   description: 'Help with car rental bookings.',
 };
 

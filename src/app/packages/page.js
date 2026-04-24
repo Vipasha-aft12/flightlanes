@@ -1,7 +1,14 @@
 import SearchBox from '@/components/search/SearchBox';
+import '@/components/homepage/hero/Hero.css';
+import '@/components/homepage/truststrip/TrustStrip.css';
+import '@/components/homepage/dealsticker/DealsTicker.css';
+import '@/components/homepage/stats/Stats.css';
+import '@/components/homepage/destinations/Destinations.css';
+import '@/components/homepage/packages/Packages.css';
+import '@/components/flights/flights.css';
 import PackageLandingSections from '@/components/packages/PackageLandingSections';
 
-export const metadata = { title: '🎁 Vacation Packages — Flightlanes', description: 'Flight + Hotel + Transfers bundled. Save up to 40%.' };
+export const metadata = { title: '🎁 Vacation Packages — Fareoworld', description: 'Flight + Hotel + Transfers bundled. Save up to 40%.' };
 
 export default function PackagesPage() {
   return (

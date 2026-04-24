@@ -1,0 +1,470 @@
+/* ═══ CONFIRMATION PAGE CSS ═══ */
+/* ═══════════════════════════════════════════════════════════════
+   CONFIRMATION PAGE (Step 4) — Flight / Car / Cruise / Package
+   Shared conf-* classes used across all four booking modules.
+   Matches the hotel module's design language but with the
+   unified booking-page (bkp-*) visual system.
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Reference strip (gradient header bar with ref + date) ── */
+.conf-ref-strip {
+  display: flex;
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 22px;
+  box-shadow: 0 4px 18px rgba(0,0,0,.12);
+}
+.conf-ref-left {
+  flex: 1;
+  background: linear-gradient(135deg, var(--teal), #004f56);
+  padding: 20px 24px;
+  color: white;
+}
+.conf-ref-right {
+  flex: 0 0 auto;
+  min-width: 180px;
+  background: linear-gradient(135deg, #004f56, #003338);
+  padding: 20px 24px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 1px solid rgba(255,255,255,.1);
+}
+.conf-ref-lbl {
+  font-size: .62rem;
+  font-weight: 800;
+  color: rgba(255,255,255,.55);
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-bottom: 6px;
+}
+.conf-ref-code {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: white;
+  letter-spacing: .12em;
+  line-height: 1.15;
+}
+.conf-ref-date {
+  font-size: .9rem;
+  font-weight: 700;
+  color: rgba(255,255,255,.9);
+  line-height: 1.3;
+}
+.conf-paid-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: .72rem;
+  font-weight: 700;
+  color: #a7f3d0;
+  margin-top: 6px;
+  background: rgba(16, 185, 129, .12);
+  border: 1px solid rgba(167, 243, 208, .25);
+  padding: 3px 10px;
+  border-radius: 100px;
+  width: fit-content;
+}
+
+/* ── Section headings ── */
+.conf-sec-hd {
+  font-size: .67rem;
+  font-weight: 800;
+  color: var(--teal);
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 22px 0 12px;
+}
+.conf-sec-hd::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #eaecef;
+}
+
+/* ── Booking snapshot card ── */
+.conf-snapshot {
+  background: #fafffe;
+  border: 1px solid rgba(0,109,119,.1);
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+.conf-snap-body {
+  padding: 18px 22px;
+}
+.conf-snap-name {
+  font-size: 1.05rem;
+  font-weight: 900;
+  color: var(--g800);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+.conf-snap-badge {
+  font-size: .62rem;
+  font-weight: 800;
+  background: var(--ice);
+  color: var(--teal);
+  padding: 3px 10px;
+  border-radius: 100px;
+  border: 1px solid rgba(0,109,119,.18);
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  white-space: nowrap;
+}
+.conf-snap-sub {
+  font-size: .82rem;
+  color: var(--g500);
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* ── Details grid (2-column key-value layout) ── */
+.conf-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  border-top: 1px solid #eaecef;
+  padding-top: 14px;
+  margin-top: 8px;
+}
+.conf-detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #f4f4f4;
+}
+.conf-detail-row:nth-child(odd) {
+  padding-right: 16px;
+  border-right: 1px solid #f4f4f4;
+}
+.conf-detail-row:nth-child(even) {
+  padding-left: 16px;
+}
+.conf-detail-lbl {
+  font-size: .76rem;
+  color: var(--g400);
+  font-weight: 600;
+}
+.conf-detail-val {
+  font-size: .82rem;
+  font-weight: 800;
+  color: var(--g800);
+}
+
+/* ── Guest / traveler rows ── */
+.conf-panel {
+  background: white;
+  border: 1px solid #eaecef;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.conf-guest-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  border-bottom: 1px solid #f4f4f4;
+}
+.conf-guest-row:last-child {
+  border-bottom: none;
+}
+.conf-guest-av {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--teal), var(--tl));
+  color: white;
+  font-size: .78rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  box-shadow: 0 2px 8px rgba(0,109,119,.2);
+}
+.conf-guest-name {
+  font-size: .88rem;
+  font-weight: 800;
+  color: var(--g800);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.conf-guest-badge {
+  font-size: .58rem;
+  font-weight: 800;
+  background: var(--ice);
+  color: var(--teal);
+  padding: 2px 8px;
+  border-radius: 100px;
+  border: 1px solid rgba(0,109,119,.18);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+.conf-guest-sub {
+  font-size: .76rem;
+  color: var(--g400);
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+/* ── What's included grid ── */
+.conf-incl-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.conf-incl-item {
+  font-size: .78rem;
+  color: var(--g600);
+  font-weight: 600;
+  background: var(--g50);
+  border: 1px solid var(--g200);
+  border-radius: 10px;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+/* ── What happens next box ── */
+.conf-next-box {
+  background: #f0fdf4;
+  border: 1px solid #a7f3d0;
+  border-radius: 14px;
+  padding: 18px 22px;
+  margin: 18px 0;
+}
+.conf-next-hd {
+  font-size: .7rem;
+  font-weight: 800;
+  color: #065f46;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-bottom: 12px;
+}
+.conf-next-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: .82rem;
+  color: #065f46;
+  margin-bottom: 9px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.conf-next-item:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Action buttons row ── */
+.conf-actions {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+  border-top: 1px solid #eaecef;
+  margin-top: 4px;
+  flex-wrap: wrap;
+}
+.conf-btn-dl {
+  flex: 1;
+  height: 48px;
+  background: linear-gradient(135deg, var(--teal), #004f56);
+  color: white;
+  border: none;
+  border-radius: 11px;
+  font-size: .88rem;
+  font-weight: 800;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all .22s;
+  box-shadow: 0 4px 14px rgba(0,109,119,.25);
+  letter-spacing: .02em;
+}
+.conf-btn-dl:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(0,109,119,.35);
+}
+.conf-btn-search {
+  flex: 0 0 auto;
+  height: 48px;
+  padding: 0 22px;
+  background: white;
+  border: 1.5px solid #e0e3e8;
+  border-radius: 11px;
+  font-size: .86rem;
+  font-weight: 700;
+  color: var(--g700);
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  transition: all .18s;
+  text-decoration: none;
+}
+.conf-btn-search:hover {
+  border-color: var(--teal);
+  color: var(--teal);
+  background: var(--ice);
+}
+.conf-btn-home {
+  flex: 0 0 auto;
+  height: 48px;
+  padding: 0 22px;
+  background: white;
+  border: 1.5px solid #e0e3e8;
+  border-radius: 11px;
+  font-size: .86rem;
+  font-weight: 700;
+  color: var(--g700);
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  transition: all .18s;
+  text-decoration: none;
+}
+.conf-btn-home:hover {
+  border-color: var(--teal);
+  color: var(--teal);
+  background: var(--ice);
+}
+
+
+
+/* ═══ Confirmation Responsive ═══ */
+/* ═══════════════════════════════════════════════════════════════
+   CONFIRMATION PAGE — Responsive Overrides
+   ═══════════════════════════════════════════════════════════════ */
+
+@media (max-width: 768px) {
+  .conf-ref-strip {
+    flex-direction: column !important;
+    border-radius: 12px !important;
+  }
+  .conf-ref-right {
+    border-left: none !important;
+    border-top: 1px solid rgba(255,255,255,.1) !important;
+    min-width: auto !important;
+  }
+  .conf-ref-code {
+    font-size: 1.4rem !important;
+  }
+  .conf-details-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .conf-detail-row:nth-child(odd) {
+    padding-right: 0 !important;
+    border-right: none !important;
+  }
+  .conf-detail-row:nth-child(even) {
+    padding-left: 0 !important;
+  }
+  .conf-incl-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .conf-snap-body {
+    padding: 14px 16px !important;
+  }
+  .conf-next-box {
+    padding: 14px 16px !important;
+  }
+  .conf-guest-row {
+    padding: 12px 14px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .conf-ref-left,
+  .conf-ref-right {
+    padding: 14px 16px !important;
+  }
+  .conf-ref-code {
+    font-size: 1.15rem !important;
+    letter-spacing: .08em !important;
+  }
+  .conf-ref-date {
+    font-size: .82rem !important;
+  }
+  .conf-paid-badge {
+    font-size: .66rem !important;
+  }
+  .conf-sec-hd {
+    font-size: .62rem !important;
+    margin: 16px 0 10px !important;
+  }
+  .conf-snap-name {
+    font-size: .92rem !important;
+  }
+  .conf-snap-sub {
+    font-size: .76rem !important;
+  }
+  .conf-detail-lbl {
+    font-size: .7rem !important;
+  }
+  .conf-detail-val {
+    font-size: .76rem !important;
+  }
+  .conf-incl-item {
+    font-size: .72rem !important;
+    padding: 8px 11px !important;
+  }
+  .conf-next-item {
+    font-size: .76rem !important;
+  }
+  .conf-next-hd {
+    font-size: .64rem !important;
+  }
+  .conf-guest-av {
+    width: 34px !important;
+    height: 34px !important;
+    font-size: .68rem !important;
+  }
+  .conf-guest-name {
+    font-size: .82rem !important;
+  }
+  .conf-guest-sub {
+    font-size: .7rem !important;
+  }
+  .conf-btn-dl,
+  .conf-btn-search,
+  .conf-btn-home {
+    font-size: .8rem !important;
+    height: 44px !important;
+    border-radius: 10px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .conf-ref-code {
+    font-size: 1rem !important;
+    letter-spacing: .06em !important;
+  }
+  .conf-actions {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+  .conf-actions a,
+  .conf-actions button {
+    width: 100% !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+  .conf-btn-search,
+  .conf-btn-home {
+    flex: unset !important;
+  }
+}

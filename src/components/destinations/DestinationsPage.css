@@ -1,10 +1,8 @@
-/* DestinationsPage — page-specific styles */
-.destinations-page {
-  padding-top: 68px;
-}
+/* DestinationsPage — page-specific styles
+   (shared arl-* classes live in globals.css) */
+.destinations-page { padding-top: 0; }
 
-
-/* Extracted inline styles */
+/* ── Extracted inline: destination card logo override ── */
 .is-des-e79cc0 {
   background: var(--teal);
   color: white;

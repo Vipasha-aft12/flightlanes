@@ -27,13 +27,13 @@ export default function Navbar() {
         <div className="nav-inner">
 
           {/* Logo */}
-          <Link href="/" className="logo" aria-label="Flightlanes Home">
+          <Link href="/" className="logo d-flex justify-center" aria-label="Fareoworld Home">
             <div className="logo-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" />
               </svg>
             </div>
-            Flight<span>lanes</span>
+            <p className='mb-0'>Fareo<span>world</span></p>
           </Link>
 
           {/* Desktop Nav Links */}
@@ -75,10 +75,10 @@ export default function Navbar() {
         <Link href="/blog" onClick={closeMenu}>📝 Blog</Link>
         <Link href="/deals" onClick={closeMenu}>🏷 Deals &amp; Offers</Link>
         <Link href="/support" onClick={closeMenu}>☎ Customer Support</Link>
-        <div className="mob-divider" />
+        <div className="mob-divider" /> 
         <Link href="/flights" onClick={closeMenu}>✈ Flights</Link>
         <Link href="/hotels" onClick={closeMenu}>🏨 Hotels</Link>
-        <Link href="/cars" onClick={closeMenu}>🚗 Car Rentals</Link>
+        <Link href="/car-rentals/" onClick={closeMenu}>🚗 Car Rentals</Link>
         <Link href="/packages" onClick={closeMenu}>🎁 Packages</Link>
         <Link href="/cruises" onClick={closeMenu}>🚢 Cruises</Link>
         <Link href="/activities" onClick={closeMenu}>🎯 Activities</Link>
@@ -86,11 +86,11 @@ export default function Navbar() {
         <Link href="/about" onClick={closeMenu}>ℹ️ About Us</Link>
         <Link href="/contact" onClick={closeMenu}>📞 Contact</Link>
         <div className="mob-divider" />
-        <div className="mob-cta-wrap">
+       {/**  <div className="mob-cta-wrap">
           <Link href="/" onClick={closeMenu}>
             ✈ Book Now — Save up to 40%
           </Link>
-        </div>
+        </div> */}
       </div>
     </>
   );

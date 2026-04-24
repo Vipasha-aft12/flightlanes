@@ -83,7 +83,7 @@ function Reviews() {
     <div className="section-header fade-up"><div className="section-label" style={{ background: 'rgba(255,255,255,.15)', color: 'white' }}>Package Reviews</div><h2 style={{ color: 'white' }}>What Travelers Say</h2></div>
     <div className="rev3 fade-up">
       {[{ t: '"The Bali package was incredible — private villa, daily breakfast, airport transfers and 2 activities all included. Saved $800 vs booking separately."', n: 'Emma & David K.', l: 'New York · Verified', i: 'EK' },
-        { t: '"Maldives overwater villa was a dream come true. The all-inclusive dining package meant zero stress. Flightlanes made it effortless."', n: 'James & Sarah T.', l: 'Los Angeles · Verified', i: 'JT' },
+        { t: '"Maldives overwater villa was a dream come true. The all-inclusive dining package meant zero stress. Fareoworld made it effortless."', n: 'James & Sarah T.', l: 'Los Angeles · Verified', i: 'JT' },
         { t: '"Our Hawaii island hop was perfectly organized — flights between islands, car rental, hotels all pre-booked. Best family vacation ever."', n: 'Patricia L.', l: 'Chicago · Verified', i: 'PL' },
       ].map((r, i) => (<div className="rev3-card" key={i}><div className="rev3-stars">★★★★★</div><div className="rev3-txt">{r.t}</div><div className="rev3-person"><div className="rev3-av">{r.i}</div><div><div className="rev3-name">{r.n}</div><div className="rev3-loc">{r.l}</div></div></div></div>))}
     </div>

@@ -1,4 +1,3 @@
-/* SupPackagesPage — page-specific styles */
-.suppackages-page {
-  padding-top: 68px;
-}
+/* SupPackagesPage — page wrapper only
+   (shared sdoc-* classes live in globals.css) */
+.suppackages-page { padding-top: 0; }

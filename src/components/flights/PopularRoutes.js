@@ -20,7 +20,8 @@ export default function PopularRoutes() {
         <div className="section-header fade-up">
           <div className="section-label">Best Deals Now</div>
           <h2>Popular Flight Routes</h2>
-          <p>Top-searched routes with today&apos;s lowest fares — updated every 60 seconds from 500+ airlines.</p>
+          <p>Discover top travel destinations and find the best airfares to book your next trip with ease.
+</p>
         </div>
         <div className="results-grid fade-up">
           {popularRoutes.map((route, i) => (

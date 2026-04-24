@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import DealDetailPage from '@/components/dealdetail/DealDetailPage';
 
 export const metadata = {
-  title: 'Deal Details | Flightlanes',
+  title: 'Deal Details | Fareoworld',
   description: 'Exclusive travel deal details and booking.',
 };
 

@@ -18,7 +18,7 @@ export default function Navbar() {
           <ul className="nav-links">
             <li><Link href="/flights">Flights</Link></li>
             <li><Link href="/hotels">Hotels</Link></li>
-            <li><Link href="/cars">Car Rentals</Link></li>
+            <li><Link href="/car-rentals/">Car Rentals</Link></li>
             <li><Link href="/packages">Packages</Link></li>
             <li><Link href="/cruises">Cruises</Link></li>
             <li><Link href="#" style={{ color: 'var(--orange)', fontWeight: 700 }}>🔥 Deals</Link></li>
@@ -39,7 +39,7 @@ export default function Navbar() {
       <div className={`mobile-menu ${menuOpen ? 'open' : ''}`}>
         <Link href="/flights" onClick={() => setMenuOpen(false)}>Flights</Link>
         <Link href="/hotels" onClick={() => setMenuOpen(false)}>Hotels</Link>
-        <Link href="/cars" onClick={() => setMenuOpen(false)}>Car Rentals</Link>
+        <Link href="/car-rentals/" onClick={() => setMenuOpen(false)}>Car Rentals</Link>
         <Link href="/packages" onClick={() => setMenuOpen(false)}>Packages</Link>
         <Link href="/cruises" onClick={() => setMenuOpen(false)}>Cruises</Link>
         <div className="mob-divider"></div>

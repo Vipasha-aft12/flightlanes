@@ -1,7 +1,7 @@
 import SupportPage from '@/components/support/SupportPage';
 
 export const metadata = {
-  title: 'Help & Support | Flightlanes',
+  title: 'Help & Support | Fareoworld',
   description: 'Get help with your booking.',
 };
 

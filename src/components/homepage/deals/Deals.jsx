@@ -41,7 +41,7 @@ export default function Deals() {
         <div className="section-header fade-up">
           <div className="section-label">Hot Right Now</div>
           <h2 id="deals-heading">Special Deals &amp; Offers</h2>
-          <p>Limited-time fares and exclusive offers — book now before they&apos;re gone.</p>
+          <p>Explore limited-time fares and exclusive travel deals. Book your flights and holiday packages before they’re gone.</p>
         </div>
         <div className="deals-grid fade-up">
           {DEALS.map((deal, i) => (

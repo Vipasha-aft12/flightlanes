@@ -1,7 +1,7 @@
 import SupCruisesPage from '@/components/supcruises/SupCruisesPage';
 
 export const metadata = {
-  title: 'Cruise Support | Flightlanes',
+  title: 'Cruise Support | Fareoworld',
   description: 'Help with cruise bookings.',
 };
 

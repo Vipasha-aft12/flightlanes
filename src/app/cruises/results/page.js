@@ -2,6 +2,8 @@
 import { useState, useMemo, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
+import '@/components/shared/results.css';
+import '@/components/cruises/cruisesDetail.css';
 import CruiseCard from '@/components/cruises/CruiseCard';
 import CruiseFilterSidebar from '@/components/cruises/CruiseFilterSidebar';
 import { generateCruisePool, getDurationBucket, CRUISE_LINES, SHIP_TYPES, BOARD_TYPES, CABIN_TYPES, DURATIONS } from '@/lib/cruiseUtils';

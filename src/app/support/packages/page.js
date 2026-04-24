@@ -1,7 +1,7 @@
 import SupPackagesPage from '@/components/suppackages/SupPackagesPage';
 
 export const metadata = {
-  title: 'Package Support | Flightlanes',
+  title: 'Package Support | Fareoworld',
   description: 'Help with vacation packages.',
 };
 

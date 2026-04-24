@@ -1,7 +1,7 @@
 const reviews = [
-  { text: "Found our dream Bali villa through Flightlanes at $60 cheaper per night than on other sites.", avatar: 'EL', name: 'Emily L.', loc: 'Seattle, WA' },
+  { text: "Found our dream Bali villa through Fareoworld at $60 cheaper per night than on other sites.", avatar: 'EL', name: 'Emily L.', loc: 'Seattle, WA' },
   { text: "Booked a last-minute NYC hotel at 11pm and got instant confirmation. Perfect location.", avatar: 'DM', name: 'David M.', loc: 'Chicago, IL' },
-  { text: "The Santorini caldera view suite was absolute perfection. Flightlanes beat every other price.", avatar: 'RK', name: 'Rachel K.', loc: 'Boston, MA' },
+  { text: "The Santorini caldera view suite was absolute perfection. Fareoworld beat every other price.", avatar: 'RK', name: 'Rachel K.', loc: 'Boston, MA' },
 ];
 export default function Reviews() {
   return (
@@ -10,7 +10,7 @@ export default function Reviews() {
         <div className="text-center mb-5 fade-up">
           <div className="section-label section-label-light">Guest Reviews</div>
           <h2 className="section-title-white">Travelers Love Their Hotel Bookings</h2>
-          <p className="section-subtitle-white">Real experiences from verified Flightlanes hotel guests.</p>
+          <p className="section-subtitle-white">Real experiences from verified Fareoworld hotel guests.</p>
         </div>
         <div className="row g-4 fade-up">
           {reviews.map((r, i) => (

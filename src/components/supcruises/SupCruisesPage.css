@@ -1,4 +1,3 @@
-/* SupCruisesPage — page-specific styles */
-.supcruises-page {
-  padding-top: 68px;
-}
+/* SupCruisesPage — page wrapper only
+   (shared sdoc-* classes live in globals.css) */
+.supcruises-page { padding-top: 0; }

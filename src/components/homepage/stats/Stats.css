@@ -1,9 +1,5 @@
-.stats-section { background: white; padding: 60px 24px; border-top: 1px solid var(--g100); }
-.stats-grid { max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: repeat(4,1fr); text-align: center; }
-.stat-item { padding: 20px; border-right: 1px solid var(--g100); }
-.stat-item:last-child { border-right: none; }
+
 .stat-num { font-family: 'Playfair Display', serif; font-size: 2.4rem; font-weight: 900; color: var(--teal); }
-.stat-label { font-size: .85rem; color: var(--g600); margin-top: 6px; }
 @media (max-width: 900px){
   .stats-grid{grid-template-columns: repeat(2,1fr);}
 }

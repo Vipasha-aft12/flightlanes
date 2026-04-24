@@ -1,14 +1,4 @@
-.trust-strip { background: white; padding: 20px 24px; border-bottom: 1px solid var(--g100); }
-.trust-inner {
-  max-width: 1280px; margin: 0 auto; display: flex; align-items: center;
-  justify-content: center; gap: 40px; flex-wrap: wrap;
-}
-.trust-item { display: flex; align-items: center; gap: 10px; font-size: .85rem; font-weight: 600; color: var(--g600); }
-.trust-icon {
-  width: 36px; height: 36px; background: var(--ice); border-radius: 8px;
-  display: flex; align-items: center; justify-content: center; color: var(--teal);
-}
-.trust-icon svg { width: 18px; height: 18px; }
+
 @media (max-width: 900px){
   .trust-inner{gap: 20px;}
 }

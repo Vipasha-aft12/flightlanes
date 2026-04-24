@@ -17,7 +17,8 @@ export default function Gallery() {
         <div className="section-header fade-up">
           <div className="section-label">Travel Inspiration</div>
           <h2 id="gallery-heading">Discover the World&apos;s Beauty</h2>
-          <p>From mountain peaks to ocean sunsets — your next adventure is out there.</p>
+          <p>From mountain peaks to ocean sunsets, explore destinations worldwide and book flights, hotels, and travel packages for your next unforgettable trip.
+</p>
         </div>
         <div className="gallery-grid fade-up" role="list">
           {GALLERY_IMGS.map((img, i) => (

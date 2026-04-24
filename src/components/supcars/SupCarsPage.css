@@ -1,4 +1,3 @@
-/* SupCarsPage — page-specific styles */
-.supcars-page {
-  padding-top: 68px;
-}
+/* SupCarsPage — page wrapper only
+   (shared sdoc-* classes live in globals.css) */
+.supcars-page { padding-top: 0; }

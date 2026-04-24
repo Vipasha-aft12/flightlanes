@@ -1,0 +1,32 @@
+/* ═══ CAR DETAIL STYLES ═══ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   SHARED DETAIL PAGE STYLES (car / package / cruise)
+   Reuses hotel detail pattern: hd-nav, hd-sec, hd-wrap etc.
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+
+/* Car detail â€“ car image hero */
+.cd-hero{width:100%;background:#f0f2f5;border-radius:16px;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:32px;margin-bottom:18px;position:relative}
+.cd-hero img{max-height:260px;width:100%;object-fit:contain;filter:drop-shadow(0 16px 40px rgba(0,0,0,.18));transition:transform .5s}
+.cd-hero:hover img{transform:scale(1.03)}
+.cd-hero-badge{position:absolute;top:16px;left:16px;background:var(--teal);color:white;font-size:.72rem;font-weight:800;padding:5px 14px;border-radius:100px;letter-spacing:.04em}
+
+/* Car spec grid */
+.cd-specs-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:0}
+.cd-spec{background:#f8f9fb;border:1px solid #eaecef;border-radius:10px;padding:14px 12px;text-align:center}
+.cd-spec-icon{font-size:1.4rem;margin-bottom:6px}
+.cd-spec-val{font-size:.88rem;font-weight:800;color:var(--g800)}
+.cd-spec-lbl{font-size:.68rem;color:var(--g400);margin-top:2px}
+
+/* Car features checklist */
+.cd-feats-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.cd-feat{display:flex;align-items:center;gap:9px;font-size:.82rem;color:var(--g600);padding:10px 12px;border-radius:9px;border:1px solid #eef0f2;background:#fafafa}
+.cd-feat-icon{font-size:.9rem;flex-shrink:0}
+
+/* Insurance options */
+.cd-insurance-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.cd-ins{border:2px solid #eaecef;border-radius:12px;padding:16px;cursor:pointer;transition:all .2s;text-align:center}
+.cd-ins:hover{border-color:var(--teal);background:var(--ice)}
+.cd-ins.selected{border-color:var(--teal);background:var(--ice)}
+.cd-ins-name{font-size:.82rem;font-weight:800;color:var(--g800);margin-bottom:4px}
+.cd-ins-price{font-size:1rem;font-weight:900;color:var(--teal);margin-bottom:4px}
+.cd-ins-desc{font-size:.7rem;color:var(--g600);line-height:1.4}

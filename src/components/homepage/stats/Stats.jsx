@@ -1,9 +1,9 @@
 import './Stats.css';
 const STATS = [
-  { num: '2M+', label: 'Happy Travelers' },
-  { num: '500+', label: 'Airlines Worldwide' },
-  { num: '150+', label: 'Countries Covered' },
-  { num: '4.9★', label: 'Average Rating' },
+  { num: '2M+', label: 'Satisfied Travelers' },
+  { num: '500+', label: 'Airlines to Book From' },
+  { num: '4740+', label: 'Routes Worldwide' },
+  { num: '4.9★', label: 'Customer Rating' },
 ];
 
 export default function Stats() {

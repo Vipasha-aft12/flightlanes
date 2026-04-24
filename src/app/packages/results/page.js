@@ -2,6 +2,8 @@
 import { useState, useMemo, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
+import '@/components/shared/results.css';
+import '@/components/packages/packagesDetail.css';
 import PackageCard from '@/components/packages/PackageCard';
 import PackageFilterSidebar from '@/components/packages/PackageFilterSidebar';
 import { generatePackagePool, getNightsBucket, PACKAGE_TYPES, BOARD_TYPES, STAR_RATINGS } from '@/lib/packageUtils';

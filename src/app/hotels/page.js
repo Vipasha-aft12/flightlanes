@@ -1,4 +1,17 @@
 import SearchBox from '@/components/search/SearchBox';
+import '@/components/hotels/hotels.css';
+import '@/components/homepage/hero/Hero.css';
+import '@/components/homepage/truststrip/TrustStrip.css';
+import '@/components/homepage/dealsticker/DealsTicker.css';
+import '@/components/homepage/stats/Stats.css';
+import '@/components/homepage/destinations/Destinations.css';
+import '@/components/homepage/deals/Deals.css';
+import '@/components/homepage/whyus/WhyUs.css';
+import '@/components/homepage/gallery/Gallery.css';
+import '@/components/homepage/reviews/Reviews.css';
+import '@/components/homepage/guides/Guides.css';
+import '@/components/homepage/loyalty/Loyalty.css';
+import '@/components/homepage/newsletter/Newsletter.css';
 import TrustStrip from '@/components/hotels/landing/TrustStrip';
 import DealsTicker from '@/components/hotels/landing/DealsTicker';
 import Stats from '@/components/hotels/landing/Stats';
@@ -12,7 +25,7 @@ import Guides from '@/components/hotels/landing/Guides';
 import Loyalty from '@/components/hotels/landing/Loyalty';
 import Newsletter from '@/components/hotels/landing/Newsletter';
 
-export const metadata = { title: '🏨 Hotels — Flightlanes', description: 'Find best hotels worldwide. Compare 500,000+ hotels.' };
+export const metadata = { title: '🏨 Hotels — Fareoworld', description: 'Find best hotels worldwide. Compare 500,000+ hotels.' };
 
 export default function HotelsLandingPage() {
   return (
